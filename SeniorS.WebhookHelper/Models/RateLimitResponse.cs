@@ -1,4 +1,4 @@
-﻿namespace SS.WebhookHelper.Models;
+﻿namespace SeniorS.WebhookHelper.Models;
 public class RateLimitResponse
 {
     public string Message { get; set; }

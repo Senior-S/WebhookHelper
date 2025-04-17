@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace SS.WebhookHelper.Models;
+namespace SeniorS.WebhookHelper.Models;
 public class Embed
 {
     public string? Title { get; private set; }
@@ -28,55 +28,65 @@ public class Embed
     {
     }
 
-    public void SetTitle(string title)
+    public Embed SetTitle(string title)
     {
         this.Title = title;
+        return this;
     }
 
-    public void SetDescription(string description)
+    public Embed SetDescription(string description)
     {
         this.Description = description;
+        return this;
     }
 
-    public void SetUrl(string url)
+    public Embed SetUrl(string url)
     {
         this.Url = url;
+        return this;
     }
 
-    public void AddTimestamp()
+    public Embed AddTimestamp()
     {
         this.Timestamp = DateTime.Now.ToString("yyyy-MM-dd'T'HH:mm:ss.fffK", CultureInfo.InvariantCulture);
+        return this;
     }
 
-    public void SetColor(int color)
+    public Embed SetColor(int color)
     {
         this.Color = color;
+        return this;
     }
 
-    public void SetHexColor(string hexColor)
+    public Embed SetHexColor(string hexColor)
     {
         if (hexColor.StartsWith("#")) hexColor = hexColor.Substring(1);
 
         this.Color = Convert.ToInt32(hexColor, 16);
+        return this;
     }
 
-    public void SetFooter(EmbedFooter footer)
+    public Embed SetFooter(EmbedFooter footer)
     {
         this.Footer = footer;
+        return this;
     }
 
-    public void SetThumbnail(EmbedThumbnail thumbnail)
+    public Embed SetThumbnail(EmbedThumbnail thumbnail)
     {
         this.Thumbnail = thumbnail;
+        return this;
     }
 
-    public void SetAuthor(EmbedAuthor author)
+    public Embed SetAuthor(EmbedAuthor author)
     {
         this.Author = author;
+        return this;
     }
 
-    public void SetThreadName(string threadName)
+    public Embed SetThreadName(string threadName)
     {
         this.Thread_Name = threadName;
+        return this;
     }
 }

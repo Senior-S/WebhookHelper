@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SS.WebhookHelper.Models;
+namespace SeniorS.WebhookHelper.Models;
 public class EmbedThumbnail
 {
     public string Url { get; private set; }

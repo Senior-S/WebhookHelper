@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SS.WebhookHelper", "SeniorS.WebhookHelper\SS.WebhookHelper.csproj", "{820D9A37-C71E-4A01-91B0-FD57D99C3A9A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeniorS.WebhookHelper", "SeniorS.WebhookHelper\SeniorS.WebhookHelper.csproj", "{820D9A37-C71E-4A01-91B0-FD57D99C3A9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
