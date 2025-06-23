@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using SeniorS.WebhookHelper.Models;
-using SS.WebhookHelper.Models;
 
 namespace SeniorS.WebhookHelper;
 

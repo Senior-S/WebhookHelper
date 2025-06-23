@@ -3,7 +3,7 @@ using System;
 using Newtonsoft.Json;
 using SeniorS.WebhookHelper.Models;
 
-namespace SS.WebhookHelper.Models;
+namespace SeniorS.WebhookHelper.Models;
 public class WebhookMessage
 {
     public string? Content { get; private set; }
